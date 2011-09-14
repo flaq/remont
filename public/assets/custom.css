@@ -1,0 +1,107 @@
+
+.container {
+	width: 710px;
+	
+	}
+
+body {
+	background: #5C5C5C;
+	font-family: Tahoma, Geneva, sans-serif;
+	}
+
+/* Header */
+
+header {
+	padding-top: 20px;
+}
+
+headr img {
+	padding: 1em;
+	background: #5c5c5c;
+	}
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #5c5c5c;
+  }
+  
+ section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+
+a {
+  color: #CD3788;
+  text-decoration: none;
+  }
+
+a:hover {
+  color: #FF69BA;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #CC3755;
+}
+
+/* navigation */
+
+nav {
+	float: right;
+	}
+
+nav {
+	background-color: #5C5C5C;
+	padding: 0 0.7em;
+	white-space: nowrap;
+	}
+	
+nav ul {
+	margin: 0;
+	padding: 0;
+	}
+
+nav ul li {
+	list-style-type:none;
+	display: inline-block;
+	padding: 0.2em 0;
+	}
+
+nav ul li a {
+	padding: 0 5px;
+	font-weight: bold;
+	}
+	
+nav ul li a:visited {
+	color: #CC3755;
+	}
+
+	nav ul li a:hover {
+	text-decoration: underline;
+	}
+	
+/* Sign up button */
+
+a.signup_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  color: #fff;
+  background: #37cc7d;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}

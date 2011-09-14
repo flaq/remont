@@ -10,5 +10,8 @@
   def about
   @title = "O nas"
   end
-
+  
+  def help
+  @title = "Pomoc"
+  end
 end

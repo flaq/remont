@@ -1,9 +1,11 @@
 Remont::Application.routes.draw do
-  get "pages/home"
-
-  get "pages/contact"
+  match 'contact', :to => 'pages#contact', :as => 'contact'
+  match 'about', :to => 'pages#about', :as => 'about'
+  match 'help', :to => 'pages#help', :as => 'help'
+  # match '/about',   :to => 'pages#about'
+  # match '/help',    :to => 'pages#help'
   
-  get "pages/about"
+  root :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

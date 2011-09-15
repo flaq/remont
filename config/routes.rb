@@ -1,4 +1,7 @@
 Remont::Application.routes.draw do
+  resources :users
+
+  match 'signup', :to => 'users#new', :as => 'signup'
   match 'contact', :to => 'pages#contact', :as => 'contact'
   match 'about', :to => 'pages#about', :as => 'about'
   match 'help', :to => 'pages#help', :as => 'help'

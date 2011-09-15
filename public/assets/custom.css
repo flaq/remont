@@ -24,7 +24,7 @@ section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
-  background: #5c5c5c;
+  background: #666666;
   }
   
  section h1 {
@@ -54,7 +54,7 @@ nav {
 	}
 
 nav {
-	background-color: #5C5C5C;
+	background-color: #666666;
 	padding: 0 0.7em;
 	white-space: nowrap;
 	}
@@ -114,8 +114,33 @@ footer {
   width: 710px;
   margin-left: auto;
   margin-right: auto;
+  background: #666666;
 }
 
 footer nav {
   float: none;
+}
+
+/* User show page */
+
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+
+td.sidebar {
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+  background: #666666;
+}
+
+.profile img.gravatar {
+  border: 1px solid #999;
+  margin-bottom: -15px;
 }
